@@ -48,4 +48,30 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 .a3{
     display: block;
+    margin-bottom: 20px;
+}
+.div4 {
+    margin-bottom: 20px;
+}
+.div5{
+    display: inline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.p6{
+    display: inline;
+    margin-left: 20px;
+}
+.span7 {
+    display: block;
+    margin: 0px 40px 0px;
+}
+.a8{
+    display: inline-block;
+    margin-right: 40px;
+    
+}
+.span9 {
+    display: block;
+    margin: 20px 0px;
 }
