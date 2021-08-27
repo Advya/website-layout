@@ -39,6 +39,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+.main{
+    margin: 50px 50px;
+}
 h1{
     color: #445161;
     font-size: 30px;
@@ -46,6 +49,10 @@ h1{
 h2{
     color: #445161;
     font-size: 25px;
+}
+h3{
+    color: #445161; 
+    font-size: 20px;
 }
 .text{
     color: #333333;
@@ -57,4 +64,25 @@ h2{
 }
 .red{
     color: red;
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.upper{
+    text-transform: uppercase;
+}
+.italic{
+    font-style: italic;
+}
+.under{    
+    text-decoration: underline;
+}
+.inline{
+    text-decoration: line-through;
+}
+.shadow{
+    text-shadow: 1px 1px 3px black;
 }
