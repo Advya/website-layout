@@ -9,10 +9,10 @@
     <body>
         <form action="#" method="post" enctype="multipart/form-data"></form>
         <div>
-            <input type="text" name="username" value="" />
+            <input placeholder="name" type="text" name="username" value="" />
         </div>
         <div>
-            <input type="password" name="userpass" value="" />
+            <input placeholder="pass" type="password" name="userpass" value="" />
         </div>
         <div>  
             <p><input checked type="radio" name="beer" value="lager" />Светлое</p>
@@ -36,7 +36,19 @@
         </div>
         <br />
         <div>
-            <textarea name="text"></textarea>            
+            <textarea placeholder="Your text" name="text"></textarea>            
+        </div>
+        <br />
+        <div>
+            <select name="color">
+                <option value="red">Красный</option>
+                <option selected value="yellow">Желтый</option>
+                <option value="blue">Голубой</option>
+            </select>
+        </div>
+        <br />
+        <div>
+            <button type="submit">Отпраить</button>
         </div>
     </body>
 </html>
