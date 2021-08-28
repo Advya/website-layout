@@ -36,26 +36,68 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
-body {
-    padding: 30px;
+body {    
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.main{    
+    margin: 126px 309px 104px 291px;
+    border: 1px solid black;
+}
+.travel{
+    margin-top: 80px;
+    font-size: 7px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #999999;
 }
 
+h1{
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 18px;
+    padding: 25px 58px 75px;
+    text-align: center;
+}
+img{
+    min-width: 840px;
+    max-height: 560px;
+    margin: 0 0 95px 200px;
+
+    border: 5px solid wheat;
+    box-shadow: 1px 1px 10px black;
+}
+p{
+    font-size: 12px;
+    margin-bottom: 60px;
+    text-align: center;
+}
 .list{
+    display: inline-block;
+    text-align: center;
     margin: 0 0 50px 0;
 }
-.list li{
-    font-size: 24px;
+.list li{    
+    font-size: 10px;
     margin-bottom: 15px;
     background: url('../img/icons/li.svg') left no-repeat;
     padding-left: 30px;
 }
-
-.block{
-    height: 300px;
-    border-radius: 15px;
-    box-shadow: 0 0 10px #000;
-    /* background: url('../img/bg_repeat.jpg') no-repeat; */
-    background: url('../img/bg.jpg') 50%/cover no-repeat, 
-    url('../img/avatar.jpg') 0 0/cover no-repeat,
-    url('../img/avatar_3.jpg') 50%/cover no-repeat;
+.li2{
+    color: #80b7b3;
+}
+.li3{
+    font-weight: bold;
+}
+.li4{
+    text-decoration: line-through;
+    color: #999999;
+}
+.button{
+    font-size: 7px;
+    height: 25px;
+    width: 70px;
+    text-transform: uppercase;
+    border-radius: 40px;
+    color: white;
+    background-color: rgba(9, 146, 135, 0.5);
 }
