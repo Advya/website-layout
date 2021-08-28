@@ -36,16 +36,26 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
-.example-block{
-    box-shadow: 5px 5px 10px 5px #000;
-    border-radius: 30px;
-    font-size: 50px;
-    padding: 15px;
-    margin: 30px;
+body {
+    padding: 30px;
 }
-.example-string{
-    font-size: 50px;
+
+.list{
+    margin: 0 0 50px 0;
 }
-.example-image{
-    border: 5px dotted #000;
+.list li{
+    font-size: 24px;
+    margin-bottom: 15px;
+    background: url('../img/icons/li.svg') left no-repeat;
+    padding-left: 30px;
+}
+
+.block{
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #000;
+    /* background: url('../img/bg_repeat.jpg') no-repeat; */
+    background: url('../img/bg.jpg') 50%/cover no-repeat, 
+    url('../img/avatar.jpg') 0 0/cover no-repeat,
+    url('../img/avatar_3.jpg') 50%/cover no-repeat;
 }
