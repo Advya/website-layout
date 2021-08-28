@@ -36,42 +36,16 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
-.main {
-    margin: 30px 30px 0px;
+.example-block{
+    box-shadow: 5px 5px 10px 5px #000;
+    border-radius: 30px;
+    font-size: 50px;
+    padding: 15px;
+    margin: 30px;
 }
-.div1 {
-    max-width: 500px;
-    margin: 0px 0px 20px;
+.example-string{
+    font-size: 50px;
 }
-.span2 {
-
-}
-.a3{
-    display: block;
-    margin-bottom: 20px;
-}
-.div4 {
-    margin-bottom: 20px;
-}
-.div5{
-    display: inline;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.p6{
-    display: inline;
-    margin-left: 20px;
-}
-.span7 {
-    display: block;
-    margin: 0px 40px 0px;
-}
-.a8{
-    display: inline-block;
-    margin-right: 40px;
-    
-}
-.span9 {
-    display: block;
-    margin: 20px 0px;
+.example-image{
+    border: 5px dotted #000;
 }
