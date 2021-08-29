@@ -48,6 +48,21 @@ body{
     line-height: 24px;
     margin: 0px 0px 20px 0px;
 }
+.block p:nth-child(odd){
+    background-color: white;
+}
+.block p:nth-child(even){
+    background-color: lightgrey;
+}
+.block p:nth-child(odd):hover{
+    background-color: lightgrey;
+}
+.block p:nth-child(even):hover{
+    background-color: lightslategray;
+}
+.block p:last-child{
+    text-transform: uppercase;
+}
 .link{
     color: red;
 }
@@ -90,4 +105,20 @@ body{
 .list li{
     font-size: 18px;
     margin-bottom: 15;
+}
+.list li:first-child{
+    color: green;
+}
+.list li:nth-child(2){
+    color: aqua;
+}
+.list li:nth-child(3){
+    color: darkmagenta;
+}
+.list li:nth-child(4){
+    color: khaki;
+}
+.list li:last-child{
+    color: yellow;
+    font-weight: 700;    
 }
