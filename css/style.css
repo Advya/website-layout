@@ -37,66 +37,42 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 body{
-    padding: 110px 250px;
-    background-color: #e8e8e8;
-    font-size: 16px;
-}
-h2{
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
+    padding: 30px;
 }
 
-ul li{
-    padding: 5px 0px;
-    /* background-image: url('../img/icons/li.svg');
-    background-repeat: no-repeat; */
+.text{
+    font-size: 24px;
+    line-height: 33px;
+    margin: 0 0 30px 0;
 }
-ul li::before{
-    content:  '✓';    
-    padding: 5px;
+.text:first-line{
+    color: green;
 }
-.firstul{
-    margin-bottom: 40px;
-}
-
-.firstul li:nth-child(1){
-    text-decoration: line-through;
-}
-.firstul li:nth-child(2){
-    font-weight: 700;
-}
-.firstul li:nth-child(3){
-    font-style: italic;
-}
-.firstul li:nth-child(4){
-    text-transform: uppercase;
-}
-.secondul li:hover{
+.text::first-letter{
     color: orangered;
+    font-size: 50px;
 }
-button{
-    height: 40px;
-    width: 150px;
-    margin: 90px 10px;
-    text-transform: uppercase;
-    color: white;
-    background-color: #80b7b3;
-    border-radius: 30px;
-    margin-left: 20px;
-    letter-spacing: 1px;
+
+.list{
+
 }
-button:hover{
-    background-color: rgb(3, 66, 3);
+.list li {
+    font-size: 24px;    
+    margin: 0 0 20px 0;
 }
-button:active{
-    background-color: grey;
+.list li:before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    margin: 0 10px 0 0;
 }
-.textinput {
-    display: block;
-    height: 40px;
-    width: 200px;
+.list li:hover:before{
+    background-color: yellow;
 }
-.textinput:focus{
-    box-shadow: 1px 1px 5px #6b9aff;
+.list li:after{
+    content: '>';
 }
+
