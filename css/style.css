@@ -37,88 +37,66 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 body{
-    padding: 30px;
+    padding: 110px 250px;
+    background-color: #e8e8e8;
+    font-size: 16px;
 }
-.block{
-    margin-bottom: 30px;
+h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
 }
 
-.block p {
-    font-size: 18px;
-    line-height: 24px;
-    margin: 0px 0px 20px 0px;
+ul li{
+    padding: 5px 0px;
+    /* background-image: url('../img/icons/li.svg');
+    background-repeat: no-repeat; */
 }
-.block p:nth-child(odd){
-    background-color: white;
+ul li::before{
+    content:  '✓';    
+    padding: 5px;
 }
-.block p:nth-child(even){
-    background-color: lightgrey;
+.firstul{
+    margin-bottom: 40px;
 }
-.block p:nth-child(odd):hover{
-    background-color: lightgrey;
+
+.firstul li:nth-child(1){
+    text-decoration: line-through;
 }
-.block p:nth-child(even):hover{
-    background-color: lightslategray;
+.firstul li:nth-child(2){
+    font-weight: 700;
 }
-.block p:last-child{
+.firstul li:nth-child(3){
+    font-style: italic;
+}
+.firstul li:nth-child(4){
     text-transform: uppercase;
 }
-.link{
-    color: red;
+.secondul li:hover{
+    color: orangered;
 }
-.link:visited{
-    color: aquamarine;
+button{
+    height: 40px;
+    width: 150px;
+    margin: 90px 10px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #80b7b3;
+    border-radius: 30px;
+    margin-left: 20px;
+    letter-spacing: 1px;
 }
-.link:hover{
-    text-decoration: underline;
-    color: blue;
+button:hover{
+    background-color: rgb(3, 66, 3);
 }
-.link:active{
-    color: yellow;
+button:active{
+    background-color: grey;
 }
-
-.textinput{
-    border: 1px solid #666;
-    height: 50px;
-    width: 300px;
-    font-size: 18px;
-    padding: 0px 15px;
-    margin-bottom: 10px;
+.textinput {
+    display: block;
+    height: 40px;
+    width: 200px;
 }
 .textinput:focus{
-    /* background-color: #666; */
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
-.textbutton{
-    display: block;
-    width: 300px;
-    height: 50px;
-    background-color: #666;
-    font-size: 18px;
-    color: #fff;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-}
-.list{
-
-}
-.list li{
-    font-size: 18px;
-    margin-bottom: 15;
-}
-.list li:first-child{
-    color: green;
-}
-.list li:nth-child(2){
-    color: aqua;
-}
-.list li:nth-child(3){
-    color: darkmagenta;
-}
-.list li:nth-child(4){
-    color: khaki;
-}
-.list li:last-child{
-    color: yellow;
-    font-weight: 700;    
+    box-shadow: 1px 1px 5px #6b9aff;
 }
