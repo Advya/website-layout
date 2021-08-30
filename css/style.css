@@ -45,7 +45,8 @@ body{
     border: 5px solid red;
     max-width: 800px;
     margin: 0px auto;
-    height: 800px;
+    height: 1400px;
+    position: relative;
 }
 .block div{    
     line-height: 50px;
@@ -55,15 +56,15 @@ body{
 }
 .block__1{
     background-color: antiquewhite;
-    position: static;
+    
 }
 .block__2{
     background-color: rgb(215, 250, 248);  
-    position: absolute;
-    
+    position: sticky;
+    top: 0;
 }
 .block__3{
-    position: relative;
+    
     
     background-color: rgb(246, 215, 250);  
     
