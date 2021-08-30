@@ -36,3 +36,35 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
+
+body{
+    padding: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.block{
+    border: 5px solid red;
+    max-width: 800px;
+    margin: 0px auto;
+    height: 800px;
+}
+.block div{    
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+.block__1{
+    background-color: antiquewhite;
+    position: static;
+}
+.block__2{
+    background-color: rgb(215, 250, 248);  
+    position: absolute;
+    
+}
+.block__3{
+    position: relative;
+    
+    background-color: rgb(246, 215, 250);  
+    
+}
