@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -69,49 +68,4 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400;
-}
-
-.link-1, .link {
-  border-bottom: 2px dashed red;
-}
-
-.block {
-  width: 31.25%;
-  background-color: #a1a1a1;
-  padding: 30px;
-  font-size: 24px;
-}
-.block .block__text {
-  font-size: 50px;
-}
-.block .block__text span {
-  color: green;
-}
-
-.link {
-  color: purple;
-  text-decoration: underline;
-  font-size: 20px;
-}
-.link:hover {
-  color: green;
-}
-.block .link {
-  font-size: 50px;
-  color: orange;
-}
-
-.link-1 {
-  font-size: 100px;
-  color: red;
-}
-
-.text {
-  font-family: "PT Sans", sans-serif;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 35px;
-}
-.text p {
-  margin: 30px 0 30px 0;
 }

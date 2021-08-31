@@ -1,61 +1,7 @@
 // null style for everything
 @import "./nullstyle.scss";
-// PT Sans font
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
-$fz:50px;
-$color_1:green;
-$color_2:purple;
-$color_3:orange;
-$main_font: 'PT Sans', sans-serif;
 
-%tplborder{
-    border-bottom: 2px dashed red;
-    
-}
 
-@mixin fontsize($f, $c){
-    font-size: $f;
-    color: $c;
-}
 
-.block{
-    width: 300px / 960px *100%;
-    background-color: rgb(161, 161, 161);
-    padding: 30px;
-    font-size: 24px;   
-   .block__text{
-       font-size: $fz;
-        span{
-            color: green;
-        }
-   }    
-}
-.link{
-    color: $color_2;
-    text-decoration: underline;
 
-    font-size: 20px;
-    @extend %tplborder;
-    &:hover{
-        color: $color_1;
-    }
-    .block &{
-        font-size: $fz;
-        color: $color_3;
-    }
-}
-.link-1{
-    @include fontsize(100px, red);
-    @extend %tplborder;
-
-}
-
-.text{
-    font-family: $main_font;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 35px;
-    p{margin: 30px 0 30px 0;}
-}
- 
