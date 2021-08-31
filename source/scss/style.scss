@@ -1,38 +1,48 @@
-*{
-    padding: 0;
-    margin: 0;
-    border: 0;
-}
-*,*:before,*:after{
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-:focus, :active{outline: none;}
-a:focus,a:active{outline: none;}
+@import "./nullstyle.scss";
 
-nav,footer,header,aside{display: block;}
+$fz:50px;
+$color_1:green;
+$color_2:purple;
+$color_3:orange;
 
-html,body{
-    height: 100%;
-    width: 100%;
-    font-size: 100%;
-    line-height: 1;
-    font-size: 14px;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
+%tplborder{
+    border-bottom: 2px dashed red;
 }
 
-input,button,textarea{font-family: inherit;}
+@mixin fontsize($f, $c){
+    font-size: $f;
+    color: $c;
+}
 
-input::-ms-clear{display: none;}
-button{cursor: pointer;}
-button::-moz-focus-inner{padding: 0; border: 0;}
-a, a:visited{text-decoration: none;}
-a:hover{text-decoration: none;}
-ul li{list-style: none;}
-img{vertical-align: top;}
+.block{
+    width: 300px / 960px *100%;
+    background-color: rgb(161, 161, 161);
+    padding: 30px;
+    font-size: 24px;   
+   .block__text{
+       font-size: $fz;
+        span{
+            color: green;
+        }
+   }    
+}
+.link{
+    color: $color_2;
+    text-decoration: underline;
 
-h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+    font-size: 20px;
+    @extend %tplborder;
+    &:hover{
+        color: $color_1;
+    }
+    .block &{
+        font-size: $fz;
+        color: $color_3;
+    }
+}
+.link-1{
+    @include fontsize(100px, red);
+    @extend %tplborder;
 
+}
+ 
