@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -103,4 +104,14 @@ h1, h2, h3, h4, h5, h6 {
 .link-1 {
   font-size: 100px;
   color: red;
+}
+
+.text {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+}
+.text p {
+  margin: 30px 0 30px 0;
 }
